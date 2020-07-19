@@ -89,7 +89,7 @@ class ViewController: UIViewController {
         print(questionAnswered, score)
         var ac: UIAlertController
         
-        if questionAnswered == 4 {
+        if questionAnswered == 10 {
             ac = UIAlertController(title: "You have answered ten questions", message: "Your final score is \(score)", preferredStyle: .alert)
             ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: saveHighestScore))
         } else {
